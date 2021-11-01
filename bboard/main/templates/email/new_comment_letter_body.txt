@@ -1,0 +1,3 @@
+Dear {{ author }}
+Your advertisement have a new comment.
+{{ host }}{% url 'main:profile_bb_detail' pk=comment.bb.pk %} 

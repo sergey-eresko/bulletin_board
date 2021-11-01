@@ -1,0 +1,22 @@
+.header1 {
+    background: url("bg.jpg") left / auto 100% no-repeat,
+    url("bg.jpg") right / auto 100% no-repeat;
+    width: auto;
+    height: 8vw;
+    margin-block: 1vw;
+    
+}
+.root {
+    font-size: larger;
+}
+
+img.main-image {
+    width: 300px;
+}
+
+img.additional-image {
+    width: 180px;
+}
+.hh1 {
+    font-size: 5vw;
+}

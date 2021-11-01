@@ -1,0 +1,11 @@
+{% extends 'layout/basic.html' %}
+{% load bootstrap4 %}
+{% block title %} Advertisement deleting {% endblock %}
+{% block content %}
+<b2>Advertisement deleting</b2>
+<p>{{ bb.title }}</p>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% buttons submit='Delete' %}{% endbuttons %}
+</form>
+{% endblock %}
